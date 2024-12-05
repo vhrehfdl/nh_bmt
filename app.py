@@ -61,6 +61,10 @@ if uploaded_file is not None:
     download(new_df)
 
 
+for _ in range(5):
+    st.write("")
+
+
 st.markdown("### NH BMT → Alli")
 # uploaded_file = st.file_uploader("제출용 파일을 업로드하세요", type=["csv"])
 st.markdown("형식을 어떻게 변환해야 하는지 논믜 필요함")
